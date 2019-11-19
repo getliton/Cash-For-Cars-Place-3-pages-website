@@ -1,0 +1,489 @@
+/*
+  Theme Name: Name -
+  Author:
+  Support: admin@gmail.com
+  Description:
+  Version: 1.0
+*/
+
+/* CSS Index
+-----------------------------------
+1. Theme default css
+2. header
+3. slider
+4. about-area
+5. features-box
+6. department
+7. team
+8. video-area
+9. counter
+10. footer
+*/
+
+
+
+/* 1. Theme Global css Start*/
+@import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans&display=swap');
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Lato', sans-serif;
+	font-weight: normal;
+	font-style: normal;
+}
+img {
+	max-width: 100%;
+	transition: all 0.3s ease-out 0s;
+	
+}
+.f-left {
+	float: left;
+}
+.f-right {
+	float: right;
+}
+.fix {
+	overflow: hidden;
+}
+a,
+.button {
+	transition: all 0.3s ease-out 0s;
+}
+a:focus,
+.button:focus {
+	text-decoration: none;
+	outline: none;
+}
+a:focus,
+a:hover{
+	color: #fff;;
+	text-decoration: none;
+}
+
+a,
+button {
+	color: #1696e7;
+	outline: medium none;
+}
+button:focus,input:focus,input:focus,textarea,textarea:focus{outline: 0}
+.uppercase {
+	text-transform: uppercase;
+}
+.capitalize {
+	text-transform: capitalize;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Lato', sans-serif;
+	font-weight: normal;
+	color: #313131;
+	margin-top: 0px;
+	font-style: normal;
+	font-weight: 400;
+}
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+	color: inherit;
+}
+h1 {
+	font-size: 40px;
+}
+h2 {
+	font-size: 35px;
+}
+h3 {
+	font-size: 28px;
+}
+h4 {
+	font-size: 22px;
+}
+h5 {
+	font-size: 18px;
+}
+h6 {
+	font-size: 16px;
+}
+ul {
+	margin: 0px;
+	padding: 0px;
+}
+li {
+	list-style: none
+}
+p {
+	font-size: 17px;
+	font-weight: normal;
+	line-height: 24px;
+	color: #222;
+	margin-bottom: 15px;
+}
+hr {
+	border-bottom: 1px solid #eceff8;
+	border-top: 0 none;
+	margin: 30px 0;
+	padding: 0;
+}
+label {
+	color: #222222;
+	cursor: pointer;
+	font-size: 14px;
+	font-weight: 400;
+}
+::selection {
+	background: #444;
+	color: #fff;
+	text-shadow: none;
+}
+
+*::placeholder {
+	color: #555555;
+	font-size: 14px;
+	opacity: 1;
+}
+
+.separator {
+	border-top: 1px solid #f2f2f2
+}
+.no-padding{
+	padding-left:0px;
+	padding-right: 0px;
+}
+/* button style */
+.btn {
+	background: #2A4C8C none repeat scroll 0 0;
+	border: 1px solid transparent;
+	border-radius: 0px;
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+	font-family: 'Lato', sans-serif;
+	font-size: 13px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	line-height: 1.1;
+	margin-bottom: 0;
+	padding: 20px 45px;
+	text-align: center;
+	text-transform: uppercase;
+	touch-action: manipulation;
+	transition: all 0.3s ease 0s;
+	vertical-align: middle;
+	white-space: nowrap;
+	position: relative;
+}
+.btn:hover{
+	border-radius: 1px solid #fff;
+}
+
+/* scrollUp */
+#scrollUp {
+	background: #2B96CC;
+	height: 35px;
+	width: 35px;
+	right: 50px;
+	bottom: 77px;
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+	border-radius: 50%;
+	font-size: 20px;
+	line-height: 34px;
+}
+#scrollUp:hover {
+	background: #444;
+}
+/* 1. Theme Global css End*/
+
+
+/*2. Header Area Start*/
+	.transparent-header {
+		position: absolute;
+		left: 0;
+		right: 0;
+		margin: auto;
+	}
+	.header-left .logo {
+		padding-top: 66px;
+	}
+	.main-menu ul {
+		float: right;
+	}
+	.main-menu ul li {
+		display: inline-block;
+		margin-left: 46px;
+		padding-top: 87px;
+	}
+	.main-menu ul li a {
+		color: #f6f9fa;
+		font-size: 18px;
+	}
+	.main-menu ul li a:hover{
+		color: #fafd17;
+	}
+	.main-menu.about ul li a {
+		color:#77a9ba;
+	}
+	.main-menu.about ul li a:hover {
+		color:#222;
+	}
+
+/*2. Header Area End*/
+
+
+/*3. Slider Area Start*/
+	.single-slider {
+		background-size: cover;
+		background-repeat: no-repeat;
+		min-height: 800px;
+		background-position: center top;
+	}
+	.slider-content h1 {
+		margin-top: 265px;
+		background-color:rgba(0,0,0,.5);
+		color:	#f6f9fa;
+		padding: 22px 45px;
+		font-size: 37px;
+	}
+	.slider-content p {
+		font-size: 15px;
+		color: #babcbc;
+		padding-top: 30px;
+		padding-bottom: 70px;
+	}
+	.slider-content span {
+		content: "";
+		background: 
+		#fff;
+		height: 2px;
+		width: 20px;
+		position: absolute;
+		margin-bottom: 40px;
+		display: inline-block;
+	}
+	.slider-content a {
+		margin-top: 40px;
+		display: inline-block;
+		border: 2px solid 	#fff;
+		padding: 23px 88px;
+		color:	#fff;
+		background-color: transparent;
+	}
+
+
+/*3. Slider Area End*/
+
+
+/*4. Service Area Start*/
+	.service-area{
+		background-color: #f6f6f6;
+	}
+	.service-content {
+		padding-top: 80px;
+	}
+	.service-content h1 {
+		font-size: 44px;
+		padding-bottom: 15px;
+	}
+	.service-content span {
+		content: "";
+		background-color: #000000;
+		height: 2px;
+		width: 20px;
+		position: absolute;
+		margin-top: 20px;
+		
+	}
+	.service-content p {
+		padding-top: 55px;
+		padding-bottom: 50px;
+		font-size: 13px;
+		color: #888888;
+		width: 65%;
+		line-height: 26px;
+	}
+	.service-content p {
+    padding-top: 55px;
+    padding-bottom: 50px;
+    font-size: 13px;
+    color: 
+    #888888;
+    width: 65%;
+    line-height: 26px;
+}
+	.service-img {
+		position: relative;
+	  }
+	.service-img-bg {
+		position: absolute;
+		width: 178%;
+		left: -196px;
+		top: 153px;
+	}
+	.service-img-car {
+		position: absolute;
+		padding-top: 181px;
+		left: 98px;
+	}
+
+
+/*4. Service Area End*/
+
+
+/*5. Case Studied Area Start*/
+	.case-studies-area{
+		background-color: #28282e;
+	}
+	.case-content {
+		padding-bottom: 120px;
+	}
+	.case-content h1 {
+		color: #fff;
+		padding-top: 100px;
+		font-size: 50px;
+		padding-bottom: 20px;
+	}
+	.case-content span{
+		content:"";
+		background-color: #fff;
+		position: absolute;
+		height: 2px;
+		width: 20px;
+	}
+	.case-content p {
+		color: #d4d4d5;
+		padding-top: 40px;
+		line-height: 26px;
+		margin-bottom: 60px;
+		width: 396px;
+		font-size: 16px;
+	}
+	.case-content .btn {
+		background: transparent;
+		border: 2px solid #fff;
+	}
+	.case-img {
+		padding-top: 240px;
+		width: 144%;
+		left: -124px;
+		position: absolute;
+	}
+/*5. Case Studies Area End*/
+
+/*6. Footer Area Start*/
+	.footer-area{
+		background-color: #ef4035;
+	}
+	.footer-content h5 {
+		font-size: 18px;
+		padding: 30px 0px;
+		color: #fff;
+		text-align: center;
+	}
+
+/*6. Footer Area End*/
+
+/*About Page Start*/
+	/*Header Area Start*/
+	
+	.header-left.about{
+		padding-bottom: 25px;
+	}
+	.header-area.about{
+		border-bottom: 5px solid #e4e4e4;
+	}
+	/*Header Area End*/
+
+	/*About Area Start*/
+	.service-area.about{
+		background-color: #fff;
+	}
+	.service-area.about h1 {
+		text-transform: uppercase;
+		padding-bottom: 44px;
+		line-height: 1px;
+		font-size: 45px;
+		font-weight: 700;
+	}
+	.service-area.about p {
+		text-align: justify;
+		width: 100%;
+		color: #9b9b9b;
+		font-size: 16px;
+	
+	}
+	.img-content p {
+		position: absolute;
+		top: 396px;
+		font-size: 16px;
+		left: 0;
+		color: #9b9b9b;
+	}
+	.inside-image {
+		position: absolute;
+		top: 65px;
+	}
+	.service-img-car.about{
+
+		position: absolute;
+		padding-top: 104px;
+		left: 135px;
+		z-index: 9999;
+	
+	}
+	/*About Area End*/
+/*About Page End*/
+
+
+
+/*Contact Page Start*/
+.service-area.contact {
+	background-color: #ee4a3f;
+	padding-bottom: 39px;
+}
+.service-content.about.contact p {
+    color:  #fff;
+    width: 100%;
+    text-align: justify;
+}
+.service-content.about.contact h1 {
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700; 
+}
+.inside-image-contact {
+    position: absolute;
+    top: 141px;
+}
+form {
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+
+}
+input {
+    width: 100%;
+    background: #ff6258;
+    border: none;
+	height: 66px;
+	margin-top: 12px;
+    margin-bottom: 30px;
+}
+button {
+	background: transparent;
+	border: none;
+	color: #fff;
+	font-size: 36px;
+	padding-top: 106px;
+	margin-left: 22px;
+	display: inline-block;
+}
+/*Contact Page End*/
+

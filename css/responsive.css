@@ -1,0 +1,291 @@
+
+/* 01. Mobile Device From ""0px to 500px"": Extra small/ "Col" */
+@media (min-width: 0px) and (max-width: 500px) 
+/*Starting Curly Bracket*/{/*Starting Curly Bracket*/
+    .main-menu ul li {
+        margin-left: 10px;
+        padding-top: 73px;
+    }
+    .main-menu ul li a {
+        font-size: 14px;
+    }
+    .main-menu.about ul li a {
+		color:#77a9ba;
+	}
+	.main-menu.about ul li a:hover {
+		color:#222;
+	}
+    .slider-content h1 {
+        margin-top: 200px;
+        padding: 12px 22px;
+        font-size: 18px;
+    }
+    .single-slider {
+        min-height: 550px;
+    }
+    .slider-content p {
+        font-size: 11px;
+        padding-top: 19px;
+        padding-bottom: 38px;
+    }
+    .slider-content a {
+        margin-top: 35px;
+        border: 1px solid #fff;
+        padding: 6px 35px;
+    }
+    /*Header And Slider End*/
+    .service-content h1 {
+        font-size: 20px;
+        padding-bottom: 9px;
+    }
+    .service-content {
+        padding-top: 50px;
+    }
+    .service-content p {
+        padding-top: 48px;
+        padding-bottom: 20px;
+        font-size: 11px;
+        width: 181%;
+        line-height: 21px;
+    }
+    .service-img-bg {
+        width: 100%;
+        left: 0;
+        right: 0;
+        top: 56px;
+    }
+    .service-img-car {
+        width: 50%;
+        left: 78px;
+        right: 0;
+        top: -116px;
+    }
+    /*Serice Area End*/
+
+    .case-content h1 {
+        padding-top: 43px;
+        font-size: 20px;
+        padding-bottom: 7px;
+    }
+    .case-content p {
+        padding-top: 30px;
+        line-height: 18px;
+        margin-bottom: 54px;
+        width: 276px;
+        font-size: 10px;
+    }
+    .case-content .btn {
+        border: 1px solid #fff;
+        padding: 13px 30px;
+        font-size: 11px;
+    }
+    .case-content {
+        padding-bottom: 70px;
+    }
+    .case-img {
+        padding-top: 225px;
+        width: 144%;
+        left: -106px;
+    }
+
+    /*About Page*/
+    
+    .service-area.about h1 {
+        text-transform: uppercase;
+        padding-bottom: 0px;
+        line-height: 1px;
+        font-size: 31px;
+        font-weight: 700;
+    }
+    .service-img-car.about {
+        left: 45px;
+        z-index: 9999;
+        width: 80%;
+        padding-top: 275px;
+    }
+    .inside-image {
+        position: absolute;
+        top: 139px;
+        width: 80%;
+        left: -15px;
+    }
+    .service-area.about p {
+        font-size: 11px;
+        top: 308px;
+        line-height: 20px;
+    
+    }
+    /*Contact Page Start*/
+    .inside-image-contact {
+      
+        top: 96px;
+    }
+    button {
+       padding-top: 0px;
+        margin-left: 0px;
+    }
+
+
+
+
+
+
+
+
+
+/*End Curly Bracket*/}/*End Curly Bracket*/
+
+
+
+
+ /*============================================*/
+/* 02. Small Device From 500.01px to 768px, Used: "col-sm" */
+@media (min-width: 500.01px) and (max-width: 768px) 
+/*Starting Curly Bracket*/ {/*Starting Curly Bracket*/
+    .main-menu ul li {
+        margin-left: 13px;
+        padding-top: 74px;
+    }
+    .main-menu ul li a {
+      
+        font-size: 13px;
+    }
+    .single-slider {
+        min-height: 700px;
+    } 
+    .slider-content h1 {
+        font-size: 25px;
+    }
+    .slider-content a {
+        padding: 15px 45px;
+    }
+    .service-content h1 {
+        font-size: 30px;
+        padding-bottom: 15px;
+    }
+    .service-content p {
+        padding-top: 98px;
+        padding-bottom: 28px;
+        font-size: 14px;
+        width: 173%;
+        
+    }
+    .service-img-bg {
+        width: 160%;
+        left: -125px;
+        top: 59px;
+    }
+    .service-img-car {
+        padding-top: 78px;
+        left: 62px;
+    }
+    /*End Service Area*/
+    .case-content {
+        padding-bottom: 65px;
+    }
+    .case-content h1 {
+        padding-top: 53px;
+        font-size: 35px;
+    }
+    .case-content p {
+        color: #d4d4d5;
+        width: 175%;
+        font-size: 15px;
+    }
+    .case-img {
+        padding-top: 254px;
+    }
+
+    /*About Page*/
+    .service-area.about p {
+        padding-top: 36px;
+    }
+    .img-content.about p {
+        padding-top: 56px;
+    }
+    .inside-image {
+        top: 188px;
+    }
+    .service-img-car.about {
+        padding-top: 259px;
+     }
+     /*Contact Page*/
+     button {
+        margin-left: 0px;
+    }
+
+
+/*End Curly Bracket*/}/*End Curly Bracket*/
+
+
+ /*============================================*/
+/* 03. Medium Device From ""768.01px to 1200px"" ""col-md""*/
+@media (min-width: 768.01px) and (max-width: 1200px) 
+/*Starting Curly Bracket*/ { /*Starting Curly Bracket*/
+    .main-menu ul li {
+        margin-left: 22px;
+ 
+    }
+    .service-img-bg {
+        width: 150%;
+    }
+    .case-img {
+        left: -205px; 
+    }
+    .img-content.about p {
+        top: 440px;
+    }
+    .inside-image {
+        top: 150px;
+    }
+    .service-img-car.about {
+        padding-top: 210px;
+    }
+    /*Contact Page*/
+    button {
+        margin-left: -11px;
+        display: inline-block;
+    }
+
+
+
+/*End Curly Bracket*/ } /*End Curly Bracket*/
+
+
+
+
+ /*============================================*/
+/*04. Large Device From ""1200.01px to Limit Device"" ""col-xl""*/
+@media (min-width: 1200.01px) 
+
+/*Starting Curly Bracket*/{/*Starting Curly Bracket*/
+.slider-content h1 {
+    font-size: 45px;
+}
+
+.service-img-bg {
+    width: 178%;
+    left: -234px;
+    top: 102px;
+} 
+.service-img-car {
+    position: absolute;
+    padding-top: 143px;
+    left: 98px;
+}
+.service-content p {
+    padding-top: 55px;
+    padding-bottom: 50px;
+    font-size: 13px;
+    color: 
+    #888888;
+    width: 65%;
+    line-height: 26px;
+}
+
+
+
+
+
+
+/*End Curly Bracket*/}/*End Curly Bracket*/
